@@ -1,0 +1,32 @@
+.avatar{
+	height:100%;
+	width:100%;
+		
+}
+.logo{
+	height: 100%;
+}
+header{
+	padding-top: 20px;
+}
+nav{
+	padding-left:33%;
+	padding-right:33%;
+}
+.date, .event, .details{
+	border: 3px solid black;
+}
+.event{
+	position: relative;
+    left: 1px;
+}
+.details{
+	position: relative;
+    top: 10px;
+}
+.body{
+	padding:40px;
+}
+p{
+	font-size: 30px;
+}
