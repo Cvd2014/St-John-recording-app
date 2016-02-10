@@ -12,7 +12,7 @@ to check in and out of the event
 
 Final feature of the app is a way for the user to view their accumulated hours as recorded via the checkin/out page
 
-
+---
 ***Many thanks to all who test and collaborate on this project***
 
 
