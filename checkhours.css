@@ -31,3 +31,11 @@ nav{
 table{
 	font-size: 25px;
 }
+
+.navbar ul li:hover{
+			background-color:#988e8e; 
+		}
+.navbar ul li a:hover{
+	color:white !important;
+	font-weight: bold;
+}
