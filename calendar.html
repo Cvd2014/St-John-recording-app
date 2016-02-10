@@ -53,32 +53,28 @@
 			</header>
 		</div> <!--close row-->
 		<nav class="navbar navbar-default">
-		  <div class="container-fluid">
-		    <!-- Brand and toggle get grouped for better mobile display -->
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		    </div>
+  			<div class="container">
+    		<!-- Brand and toggle get grouped for better mobile display -->
+   			 	<div class="navbar-header">
+      				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        				<span class="sr-only">Toggle navigation</span>
+       					<span class="icon-bar"></span>
+       					<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+      				</button>
+    			</div>
 
-		    <!-- Collect the nav links, forms, and other content for toggling -->
-		    <div class="collapse navbar-collapse">
-		      <ul class="nav navbar-nav">
-
-			        <li><a href="#">Check In</a></li>
-			        <li ><a href="#">Check out</a></li>
-			        <li><a href="#">Check my hours</a></li>
-			        <li class="active"><a href="#">See upcoming<span class="sr-only">
-			     	
-			        </span></a></li>
-
-		      </ul>  
-		    </div><!-- /.navbar-collapse -->
-		  </div><!-- /.container-fluid -->
-		</nav>
+    		<!-- Collect the nav links, forms, and other content for toggling -->
+ 		   <div class="collapse navbar-collapse">
+      			<ul class="nav navbar-nav">
+       				 <li><a href="checkin_button.html">Check In</a></li>
+       				 <li><a href="checkin_button.html">Check out</a></li>
+       				 <li><a href="checkhours.html">Check my hours</a></li>
+        			<li class="active"><a href="#">See upcoming<span class="sr-only">(current)</span></a></li>
+     			</ul>  
+   			</div><!-- /.navbar-collapse -->
+  		</div><!-- /.container-fluid -->
+	</nav>	
 		<div class="container">
 			<div class="row">
 				<div class='col-md-12'>
@@ -119,8 +115,9 @@
         $(".responsive-calendar").responsiveCalendar({
           time: '2016-02',
           events: {
-            "2016-02-16": {"number": 5, "url": "http://w3widgets.com/responsive-slider"},
-            "2016-02-26": {"number": 1, "url": "http://w3widgets.com"}, 
+            "2016-02-16": {"number": 5, "url": "eventpage.html"},
+            "2016-02-26": {"number": 1, "url": "eventpage.html"}, 
+            "2016-02-10": {"number": 2, "url": "eventpage.html"},
             "2016-02-03":{"number": 1}, 
             "2016-02-12": {}}
         });
