@@ -1,0 +1,19 @@
+.avatar{
+	height:100%;
+	width:100%;
+}
+.logo{
+	height: 100%;
+}
+header{
+	padding-top: 20px;
+}
+
+nav{
+	padding-left:33%;
+	padding-right:33%;
+}
+.form{
+	margin-left: 32%;
+	margin-top: 10%;
+}
