@@ -30,3 +30,12 @@ nav{
 p{
 	font-size: 30px;
 }
+
+.navbar ul li:hover{
+	background-color:#988e8e; 
+}
+
+.navbar ul li a:hover{
+	color:white !important;
+	font-weight: bold;
+}
