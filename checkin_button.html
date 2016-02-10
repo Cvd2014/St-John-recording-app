@@ -38,6 +38,21 @@
 			color:white !important;
 			font-weight: bold;
 		}
+		.checkin, .checkout{
+			width: 90%;
+			margin-left: 5%;
+			height: 180px;
+		}
+		.checkin{
+			font-size: 100px;
+		}
+		.checkout{
+			font-size: 100px;
+			margin-top: 20px;
+		}
+		p{
+			font-size: 25px;
+		}
 
 	</style>
 </head>
@@ -90,12 +105,15 @@
 			<p class='text-center'>Login to the duty</p>
 		</article>
 		</div><!--close details-->
-		<div class="row" >
-			<div class="btn-group btn-group-vertical col-md-4 col-md-offset-4">
-				<button type="button" class="btn btn-success"><a href="#">Check In</a></button>
-				<button type="button" class="btn btn-danger"><a href="#">Check Out</a></button>
-
-			</div><!-- Close Button group-->
+		<div class="row">
+			<div class='col-md-12'>
+        		<button type="button" class="btn btn-success checkin"><a href="calendar.html">Check In</a></button>
+      		</div>
+		</div><!--close row-->	
+		<div class="row">
+			<div class='col-md-12'>
+        		<button type="button" class="btn btn-danger checkout"><a href="calendar.html">Check Out</a></button>
+      		</div>
 		</div><!--close row-->	
 	</section>
 	</div><!--container-->
