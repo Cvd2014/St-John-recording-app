@@ -8,25 +8,12 @@
 header{
 	padding-top: 20px;
 }
-
-nav{
-	padding-left:33%;
-	padding-right:33%;
-}
 button a{
 	color:white;
 	text-decoration: none;
 }
 button a:hover{
 	text-decoration: none;
-}
-
-.navbar ul li:hover{
-	background-color:#988e8e; 
-}
-.navbar ul li a:hover{
-	color:white !important;
-	font-weight: bold;
 }
 .checkin, .checkout{
 	width: 90%;
@@ -43,6 +30,26 @@ button a:hover{
 p{
 	font-size: 25px;
 }
-#user{
+p.user{
 	font-size: 14px;
+}
+.bodytext{
+	padding-top: 12px;
+}
+nav{
+	background-color: whitesmoke;
+	padding: 10px;
+	font-size: 20px;
+}
+.nav-justified>li>a{
+	color: black;
+}
+.nav-pills>li.active>a{
+	background-color: black;
+}
+.nav-pills>li>a:hover{
+	background-color: darkgrey;
+}
+.nav-pills>li.active>a:hover{
+	background-color: grey;
 }

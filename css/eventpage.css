@@ -8,10 +8,6 @@
 header{
 		padding-top: 20px;
 }
-nav{
-	padding-left:33%;
-	padding-right:33%;
-}
 .date, .event, .details, .attend{
 	border: 3px solid black;
 }
@@ -28,15 +24,6 @@ nav{
 }
 p{
 	font-size: 30px;
-}
-
-.navbar ul li:hover{
-	background-color:#988e8e; 
-}
-
-.navbar ul li a:hover{
-	color:white !important;
-	font-weight: bold;
 }
 .btn{
 	width: 100%;
@@ -56,4 +43,24 @@ p{
 }
 #user{
 	font-size: 14px;
+}
+table{
+	font-size: 25px;
+}
+nav{
+	background-color: whitesmoke;
+	padding: 10px;
+	font-size: 20px;
+}
+.nav-justified>li>a{
+	color: black;
+}
+.nav-pills>li.active>a{
+	background-color: black;
+}
+.nav-pills>li>a:hover{
+	background-color: darkgrey;
+}
+.nav-pills>li.active>a:hover{
+	background-color: grey;
 }

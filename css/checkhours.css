@@ -9,10 +9,6 @@
 header{
 	padding-top: 20px;
 }
-nav{
-	padding-left:33%;
-	padding-right:33%;
-}
 .body{
 	margin:50px;
 }
@@ -31,11 +27,20 @@ nav{
 table{
 	font-size: 25px;
 }
-
-.navbar ul li:hover{
-			background-color:#988e8e; 
-		}
-.navbar ul li a:hover{
-	color:white !important;
-	font-weight: bold;
+nav{
+	background-color: whitesmoke;
+	padding: 10px;
+	font-size: 20px;
+}
+.nav-justified>li>a{
+	color: black;
+}
+.nav-pills>li.active>a{
+	background-color: black;
+}
+.nav-pills>li>a:hover{
+	background-color: darkgrey;
+}
+.nav-pills>li.active>a:hover{
+	background-color: grey;
 }

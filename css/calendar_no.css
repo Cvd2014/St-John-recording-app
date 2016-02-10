@@ -9,18 +9,26 @@
 header{
 	padding-top: 20px;
 }
-nav{
-	padding-left:33%;
-	padding-right:33%;
-}
-
-.navbar ul li:hover{
-	background-color:#988e8e; 
-}
-.navbar ul li a:hover{
-	color:white !important;
-	font-weight: bold;
-}
 body > div:nth-child(3) > div:nth-child(1) > div > div > div.days > div.day.wed.today.active > a {
 	background-color: #d9534f;
+}
+nav{
+	background-color: whitesmoke;
+	padding: 10px;
+	font-size: 20px;
+}
+.nav-justified>li>a{
+	color: black;
+}
+.nav-pills>li.active>a{
+	background-color: black;
+}
+.nav-pills>li>a:hover{
+	background-color: darkgrey;
+}
+.nav-pills>li.active>a:hover{
+	background-color: grey;
+}
+div.responsive-calendar{
+	padding-top: 30px;
 }
