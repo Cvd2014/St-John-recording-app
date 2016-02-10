@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTC-8">
+	<title>Calendar page</title>
+	 <!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="css\bootstrap.css">
+	<!-- Respomsive slider -->
+    <link href="widgets/responsive-calendar/css/responsive-calendar.css" rel="stylesheet">
+
+	<style type="text/css">
+		.avatar{
+			height:100%;
+			width:100%;
+		
+		}
+		.logo{
+			height: 100%;
+		}
+		header{
+			padding-top: 20px;
+		}
+		nav{
+			padding-left:33%;
+			padding-right:33%;
+		}
+
+		.navbar ul li:hover{
+			background-color:#988e8e; 
+		}
+		.navbar ul li a:hover{
+			color:white !important;
+			font-weight: bold;
+		}
+		body > div:nth-child(3) > div:nth-child(1) > div > div > div.days > div.day.wed.today.active > a {
+			background-color: #d9534f;
+		}
+
+	</style>
+
+</head>
+<body>
+	<div class="container">
+		<div class='row'>
+			<header>
+				<img class=" logo col-md-3 center" src="img\St._John_Logo.jpeg">
+				<div class='col-md-6'></div>
+				<div class='col-md-2'>
+						<p>Hello Username</p>
+						<p><a href='Login_page.html'>Sign out</a></p>
+				</div>		
+				<div class='col-md-1'>
+					<img  class= 'avatar img-circle' src='img\clown.jpg'>
+				</div>
+	 </div> <!--close container-->
+			</header>
+		</div> <!--close row-->
+		<nav class="navbar navbar-default">
+  			<div class="container">
+    		<!-- Brand and toggle get grouped for better mobile display -->
+   			 	<div class="navbar-header">
+      				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        				<span class="sr-only">Toggle navigation</span>
+       					<span class="icon-bar"></span>
+       					<span class="icon-bar"></span>
+        				<span class="icon-bar"></span>
+      				</button>
+    			</div>
+
+    		<!-- Collect the nav links, forms, and other content for toggling -->
+ 		   <div class="collapse navbar-collapse">
+      			<ul class="nav navbar-nav">
+       				 <li><a href="checkin_button.html">Check In</a></li>
+       				 <li><a href="checkin_button.html">Check out</a></li>
+       				 <li><a href="checkhours.html">Check my hours</a></li>
+        			<li class="active"><a href="#">See upcoming<span class="sr-only">(current)</span></a></li>
+     			</ul>  
+   			</div><!-- /.navbar-collapse -->
+  		</div><!-- /.container-fluid -->
+	</nav>	
+		<div class="container">
+			<div class="row">
+				<div class='col-md-12'>
+				<!-- Responsive calendar - START -->
+		    	<div class="responsive-calendar">
+			        <div class="controls">
+			            <a class="pull-left" data-go="prev"><div class="btn btn-primary">Prev</div></a>
+			            <h4><span data-head-year></span> <span data-head-month></span></h4>
+			            <a class="pull-right" data-go="next"><div class="btn btn-primary">Next</div></a>
+			        </div><hr/>
+			        <div class="day-headers">
+			          <div class="day header">Mon</div>
+			          <div class="day header">Tue</div>
+			          <div class="day header">Wed</div>
+			          <div class="day header">Thu</div>
+			          <div class="day header">Fri</div>
+			          <div class="day header">Sat</div>
+			          <div class="day header">Sun</div>
+			        </div>
+		        	<div class="days" data-group="days">
+		  
+		       		</div>
+		      </div>		
+
+			</div> <!-- Close Calendar column -->
+		</div> <!-- Close Calendar Container -->
+		<div class='row'>
+			<footer></footer>
+		</div>
+
+	</div>
+	
+	<script src="http://code.jquery.com/jquery.min.js"></script>
+	<script src="JavaScript/bootstrap.min.js"></script>
+	<script src="widgets/responsive-calendar/js/responsive-calendar.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".responsive-calendar").responsiveCalendar({
+          time: '2016-02',
+          events: {
+            "2016-02-16": {"number": 5, "url": "eventpage.html"},
+            "2016-02-26": {"number": 1, "url": "eventpage.html"}, 
+            "2016-02-10": {"number": 2, "url": "eventpage.html"},
+            "2016-02-03":{"number": 1}, 
+            "2016-02-12": {}}
+        });
+      });
+    </script>
+</body>
+</html>
