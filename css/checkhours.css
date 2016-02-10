@@ -1,0 +1,41 @@
+.avatar{
+	height:100%;
+	width:100%;
+		
+}
+.logo{
+	height: 100%;
+}
+header{
+	padding-top: 20px;
+}
+nav{
+	padding-left:33%;
+	padding-right:33%;
+}
+.body{
+	margin:50px;
+}
+.hours{
+	left: 15px;
+	border: 2px solid black;
+	font-size: 50px;
+	text-align: center;
+}
+.awards{
+	left: 40px;
+}
+.content{
+	padding-bottom: 25px;
+}
+table{
+	font-size: 25px;
+}
+
+.navbar ul li:hover{
+			background-color:#988e8e; 
+		}
+.navbar ul li a:hover{
+	color:white !important;
+	font-weight: bold;
+}

@@ -1,0 +1,26 @@
+.avatar{
+	height:100%;
+	width:100%;
+
+}
+.logo{
+	height: 100%;
+}
+header{
+	padding-top: 20px;
+}
+nav{
+	padding-left:33%;
+	padding-right:33%;
+}
+
+.navbar ul li:hover{
+	background-color:#988e8e; 
+}
+.navbar ul li a:hover{
+	color:white !important;
+	font-weight: bold;
+}
+body > div:nth-child(3) > div:nth-child(1) > div > div > div.days > div.day.wed.today.active > a {
+	background-color: #5cb85c;
+}
